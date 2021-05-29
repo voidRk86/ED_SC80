@@ -199,7 +199,7 @@ CLS:	lxi	h,ScrStart
 	lxi	b,ScrSize-1
 
 	SetScrAddr
-	mvi	a,84H
+	mvi	a,20h;84H
 	WriteNextSym
 ClsLoop:
 	mvi	a,space
